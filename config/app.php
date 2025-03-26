@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        "Uasoft\\Badaso\\Providers\\BadasoServiceProvider",
         /*
          * Application Service Providers...
          */
@@ -194,7 +194,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        "Uasoft\\Badaso\\Providers\\BadasoServiceProvider"
 
     ],
 
