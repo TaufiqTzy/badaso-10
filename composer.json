@@ -49,7 +49,9 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Uasoft\\Badaso\\": "packages/badaso/core/src"
+
         }
     },
     "autoload-dev": {
