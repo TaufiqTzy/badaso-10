@@ -57,6 +57,12 @@
         }
     },
     "scripts": {
+        "repositories": [
+            {
+                "type": "path",
+                "url": "packages/badaso/core"
+            }
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
