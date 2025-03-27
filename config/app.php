@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-        'Uasoft\Badaso\Providers\BadasoServiceProvider',
+    
         /*
          * Application Service Providers...
          */
